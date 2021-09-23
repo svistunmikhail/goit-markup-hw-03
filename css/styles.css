@@ -33,6 +33,10 @@ body {
     text-decoration: none;
 }
 
+.main-header {
+    display: flex;
+    align-items: center;
+}
 /* -----------HEADER----------- */
 
 .logo {
@@ -55,12 +59,34 @@ letter-spacing: 0.02em;
 }
 
 .header-link {
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
 color: var(--primary-text-color);
 }
+
+.header-list {
+    display: flex;
+    margin-left: 93px;
+}
+
+.header-list-contacts {
+    display: flex;
+    margin-left: 331px;
+}
+
+.header-item:not(:last-child){
+    margin-right: 50px;
+}
+
+.header-item-contacts:not(:last-child) {
+    margin-right: 50px;
+}
+
 
 .header-navigation .current {
     color: var(--akcent-color);
@@ -120,6 +146,13 @@ background-color: var(--akcent-color);
 }
 
 /* -----------FEATURES----------- */
+.features-list {
+    display: flex;
+}
+
+.features-item:not(:last-child) {
+    margin-right: 30px;
+}
 
 .features-item-title {
 margin-top: 0;
@@ -149,10 +182,26 @@ line-height: 1.17;
 text-align: center;
 }
 
+.about-list {
+    display: flex;
+}
+
+.about-item:not(:last-child) {
+    margin-right: 30px;
+}
+
 /* -----------ABOUT----------- */
 
 .team {
     background-color: #F5F4FA;
+}
+
+.team-list {
+    display: flex;
+}
+
+.team-item:not(:last-child) {
+    margin-right: 30px;
 }
 
 .team-title {
@@ -174,11 +223,14 @@ line-height: 1.19;
 
 .team-item-text {
     margin-top: 0;
-    margin-bottom: 30px;
+    margin-bottom: 0;
+    padding-bottom: 30px;
 font-size: 16px;
 line-height: 19px;
 color:var(--secondary-text-color);
 }
+
+
 
 /* -----------FOOTER----------- */
 
