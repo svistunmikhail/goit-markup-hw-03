@@ -15,6 +15,7 @@ body {
 .section {
     padding-top: 94px;
     padding-bottom: 94px;
+    outline: 5px solid red;
 }
 
 .container {
@@ -24,6 +25,8 @@ body {
 }
 
 .list {
+   margin: 0;
+   padding: 0;
     list-style: none;
 }
 
@@ -46,6 +49,7 @@ color:var(--akcent-color)
 }
 
 .header {
+    outline: 5px solid green;
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
@@ -86,9 +90,12 @@ color:var(--secondary-text-color);
 
 .hero {
     background-color: #2F303A;
+    text-align: center;
 }
 
 .hero-title {
+margin-top: 0;
+margin-bottom: 30px;
 font-weight: 900;
 font-size: 44px;
 line-height: 1.36;
@@ -101,13 +108,13 @@ color: #FFFFFF;
 .hero-btn {
 border: 0;
 cursor: pointer;
+padding: 10px 32px;
+min-width: 200px;
 font-family: inherit;    
 font-style: inherit;
 font-weight: 700;
 font-size: 16px;
 line-height: 1.87;
-display: flex;
-align-items: center;
 text-align: center;
 letter-spacing: 0.06em;
 color: #FFFFFF;
@@ -117,6 +124,8 @@ background-color: var(--akcent-color);
 /* -----------FEATURES----------- */
 
 .features-item-title {
+margin-top: 0;
+margin-bottom: 10px;
 font-weight: 700;
 font-size: 14px;
 line-height: 1.14;
@@ -124,6 +133,8 @@ text-transform: uppercase;
 }
 
 .features-item-text {
+    margin-top: 0;
+    margin-bottom: 0;
 font-size: 14px;
 line-height: 1.71;
 color: var(--secondary-text-color);
@@ -132,6 +143,8 @@ color: var(--secondary-text-color);
 /* -----------ABOUT----------- */
 
 .about-title {
+    margin-top: 0;
+    margin-bottom: 50px;
 font-weight: 700;
 font-size: 36px;
 line-height: 1.17;
@@ -145,6 +158,8 @@ text-align: center;
 }
 
 .team-title {
+    margin-top: 0;
+    margin-bottom: 50px;
 font-weight: 700;
 font-size: 36px;
 line-height: 1.17;
@@ -152,12 +167,16 @@ text-align: center;
 }
 
 .team-item-title {
+    margin-top: 30px;
+    margin-bottom: 10px;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.19;
 }
 
 .team-item-text {
+    margin-top: 0;
+    margin-bottom: 30px;
 font-size: 16px;
 line-height: 19px;
 color:var(--secondary-text-color);
@@ -221,6 +240,8 @@ background-color: #F5F4FA;
 }
 
 .filter-list-title {
+    margin-top: 20px;
+    margin-bottom: 4px;
 font-weight:700;
 font-size: 18px;
 line-height: 2;
@@ -228,6 +249,8 @@ letter-spacing: 0.06em;
 }
 
 .filter-list-text {
+    margin-top: 0;
+    margin-bottom: 20px;
 font-size: 16px;
 line-height: 1.87;
 color:var(--secondary-text-color);
