@@ -15,8 +15,7 @@ body {
 .section {
     padding-top: 94px;
     padding-bottom: 94px;
-    outline: 5px solid red;
-}
+    }
 
 .container {
     margin-left: auto;
@@ -49,7 +48,6 @@ color:var(--akcent-color)
 }
 
 .header {
-    outline: 5px solid green;
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
