@@ -264,6 +264,8 @@ color:var(--secondary-text-color);
 
 .footer {
     background-color: #2F303A;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .footer-logo-text {
@@ -279,6 +281,7 @@ color: #FFFFFF;
 
 address {
 font-style: inherit;
+margin-top: 20px;
 }
 
 .footer-link-contacts {
