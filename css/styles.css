@@ -59,14 +59,17 @@ height: auto;
 /* -----------HEADER----------- */
 
 .logo {
-    display: block;
-    padding-top: 32px;
-    padding-bottom: 32px;
 font-family: Raleway;
 font-weight: 700;
 font-size: 26px;
 line-height: 1.19;
 color:var(--akcent-color)
+}
+
+.header-logo {
+display: block;
+padding-top: 32px;
+padding-bottom: 32px;
 }
 
 .header-logo-text {
