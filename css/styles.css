@@ -81,7 +81,7 @@ font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
-border-bottom;: 1px solid #ECECEC
+border-bottom: 1px  solid #ECECEC;
 
 }
 
@@ -219,12 +219,13 @@ text-align: center;
 
 .about-list {
     display: flex;
+    margin-right: -30px;
 }
 .about-item {
    flex-basis: calc(100% / 3 - 30px);
 }
 
-.about-item:not(:last-child) {
+.about-item {
     margin-right: 30px;
 }
 
@@ -236,13 +237,14 @@ text-align: center;
 
 .team-list {
     display: flex;
+    margin-right: -30px;
 }
 
 .team-item {
 flex-basis: calc(100% / 4 - 30px);
 }
 
-.team-item:not(:last-child) {
+.team-item {
     margin-right: 30px;
 }
 
@@ -317,7 +319,7 @@ color: rgba(255, 255, 255, 0.6);
 
 .buttons-list {
     display: flex;
-    margin-bottom: 34px;
+    margin-bottom: 50px;
    justify-content: center;
     }
 
@@ -383,13 +385,13 @@ margin-bottom: -30px;
     margin-bottom: 30px;
 }
 
-.filter-list-item:nth-child(3n) {
+/* .filter-list-item:nth-child(3n) {
     margin-right: 0px;
 }
 
 .filter-list-item:nth-last-child(-n+3){
-   margin-bottom: 0px;
-}
+   margin-bottom: 0px; */
+/* } */
 
 .card-text {
  border: 1px solid #EEEEEE;
