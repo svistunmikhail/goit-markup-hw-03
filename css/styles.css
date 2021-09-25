@@ -59,6 +59,9 @@ height: auto;
 /* -----------HEADER----------- */
 
 .logo {
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
 font-family: Raleway;
 font-weight: 700;
 font-size: 26px;
@@ -119,6 +122,9 @@ color: var(--primary-text-color);
 }
 
 .header-link-contacts {
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
