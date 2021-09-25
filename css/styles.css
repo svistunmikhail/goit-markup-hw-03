@@ -68,8 +68,8 @@ color:var(--akcent-color)
 
 .header-logo {
 display: block;
-padding-top: 32px;
-padding-bottom: 32px;
+padding-top: 24px;
+padding-bottom: 25px;
 }
 
 .header-logo-text {
@@ -313,6 +313,11 @@ font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
 color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-link-contacts:hover, 
+.footer-link-contacts:focus {
+    color: var(--akcent-color);
 }
 
 /* -----------PORTFOLIO FILTER-BUTTONS----------- */
