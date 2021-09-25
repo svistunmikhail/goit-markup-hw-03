@@ -414,7 +414,7 @@ margin-bottom: -30px;
 }
 
 .card-text {
- border-top: 0;
- border: 1px solid #EEEEEE;
+  border: 1px solid #EEEEEE;
+  border-top: none;
  padding: 20px 24px;
  }
