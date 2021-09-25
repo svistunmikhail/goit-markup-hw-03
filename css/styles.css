@@ -217,7 +217,7 @@ text-align: center;
     margin-right: 30px;
 }
 
-/* -----------ABOUT----------- */
+/* -----------TEAM----------- */
 
 .team {
     background-color: #F5F4FA;
@@ -228,7 +228,7 @@ text-align: center;
 }
 
 .team-item {
-flex-basis: calc(100% / 3 - 30px);
+flex-basis: calc(100% / 4 - 30px);
 }
 
 .team-item:not(:last-child) {
